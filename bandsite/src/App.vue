@@ -1,8 +1,17 @@
 <template>
   <div id="app">
-    <nav-bar></nav-bar>
-
-    <footer-contact></footer-contact>
+    <div class="container">
+      <div class="row">
+        <div class="col s12">
+          <nav-bar></nav-bar>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col s12">
+          <footer-contact></footer-contact>
+        </div>
+      </div>
+    </div>
   </div>
 </template>
 
