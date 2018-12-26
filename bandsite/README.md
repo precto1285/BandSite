@@ -52,3 +52,4 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 
   1. Vue.Js
   2. Materialize
+  3. Font Awesome
