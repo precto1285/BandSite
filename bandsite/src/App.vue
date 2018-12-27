@@ -8,6 +8,11 @@
       </div>
       <div class="row">
         <div class="col s12">
+          <photo-bucket></photo-bucket>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col s12">
           <footer-contact></footer-contact>
         </div>
       </div>
@@ -18,12 +23,14 @@
 <script>
 import NavBar from "./components/NavBar.vue";
 import FooterContact from "./components/Footer.vue";
+import PhotoBucket from "./components/PhotoBucket";
 
 export default {
   name: "app",
   components: {
     NavBar,
-    FooterContact
+    FooterContact,
+    PhotoBucket
   }
 };
 </script>
